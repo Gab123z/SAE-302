@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>SAE3.02</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>SAE3.02</h1>
+
+        <form method="POST">
+            <input type="text" name="keyword" placeholder="Search a term..." required>
+        </form>
+
+        <div class="results">
+            {% if total_matches > 0 %}
+                <p>
+                    {{ total_matches }} result(s) found in {{ total_files }} file(s)
+                </p>
+
+                {% for filename, matches in results.items() %}
+                   <div class="file-group">
+                        <h3>{{ filename }}</h3>
+                        <ul>
+                            {% for match in matches %}
+                                <li>
+                                    <strong>
+                                        Line {{ match.line }}
+                                        {% if match.column is defined %}
+                                            - Column {{ match.column }}
+                                        {% endif %}
+                                    </strong>
+                                    : {{ match.content }}
+                                </li>
+                           {% endfor %}
+                        </ul>
+                   </div>
+                {% endfor %}
+            {% elif request.method == "POST" %}
+                <p>No results found.</p>
+            {% endif %}
+        </div>
+    </div>
+
+</body>
+</html>
