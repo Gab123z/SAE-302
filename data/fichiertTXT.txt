@@ -1,0 +1,12 @@
+Étymologie
+
+Le mot ordinateur fut introduit par IBM France en 1955[1],[2] après que François Girard, alors responsable du service publicité de l'entreprise, eut eu l'idée de consulter son ancien professeur de lettres à Paris, Jacques Perret. 
+Avec Christian de Waldner, alors président d'IBM France, ils demandèrent au professeur Perret de suggérer un « nom français pour sa nouvelle machine électronique destinée au traitement de l'information (IBM 650), en évitant d'utiliser la transposition littérale du mot anglais, computeur (« calculateur » ou « calculatrice »), qui était à cette époque plutôt réservé aux machines scientifiques »[3].
+
+En 1911, une description de la machine analytique de Babbage utilisait le mot ordonnateur pour en décrire son organe moteur : « Pour aller prendre et reporter les nombres… et pour les soumettre à l’opération demandée, il faut qu'il y ait dans la machine un organe spécial et variable : c'est l'ordonnateur. Cet ordonnateur est constitué simplement par des feuilles de carton ajourées, analogues à celle des métiers Jacquard… »[4].
+
+Le professeur proposa un mot proche de ordonnateur — celui qui met en ordre[5] — et qui avait aussi la notion d'ordre ecclésiastique dans l'église catholique (ordinant, ordination)[6]. 
+Il suggéra plus précisément ordinatrice électronique, le féminin ayant pu permettre, selon lui, de mieux distinguer l'usage religieux de l'usage comptable du mot[7].
+
+« IBM France retint le mot ordinateur et chercha initialement à le protéger comme une marque. 
+Mais le mot fut facilement et rapidement adopté par les utilisateurs et IBM France décida au bout de quelques mois de le laisser dans le domaine public[3]. » 
