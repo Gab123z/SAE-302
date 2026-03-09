@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Document Search</title>
 
-  <!-- Flask static CSS -->
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
@@ -52,7 +51,7 @@
             </div>
           </div>
 
-          {% if results and total_matches > 0 %}
+          {% if results %}
             <div class="results-grid">
               {% for file_item in results %}
                 <article class="file-card">
@@ -60,7 +59,9 @@
                     <div class="file-name" title="{{ file_item.file }}">
                       {{ file_item.file }}
                     </div>
-                    <div class="badge">{{ file_item.matches|length }} hit{{ '' if file_item.matches|length == 1 else 's' }}</div>
+                    <div class="badge">
+                      {{ file_item.matches|length }} hit{{ '' if file_item.matches|length == 1 else 's' }}
+                    </div>
                   </div>
 
                   <ul class="match-list">
